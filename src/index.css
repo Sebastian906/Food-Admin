@@ -9,7 +9,7 @@
 
 body {
   min-height: 100vh;
-  background-color: #fcfcfc;
+  background-color: #fff1e6;
 }
 
 a {
@@ -25,4 +25,10 @@ hr {
 
 .app-content {
   display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
